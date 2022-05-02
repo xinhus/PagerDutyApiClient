@@ -1,0 +1,20 @@
+{
+    "name": "rafael-cardoso/php-with-guzzle",
+    "autoload": {
+        "psr-4": {
+            "RafaelCardoso\\PhpWithGuzzle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\RafaelCardoso\\PhpWithGuzzle\\": "test/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}

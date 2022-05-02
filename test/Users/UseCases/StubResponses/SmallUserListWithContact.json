@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "name": "Alan B. Shepard, Jr.",
+      "email": "alan.shepard@nasa.example",
+      "time_zone": "America/Los_Angeles",
+      "color": "blue-violet",
+      "avatar_url": "https://secure.gravatar.com/avatar/e58b7fdfb50566fd0334b360a05b729c.png?d=mm&r=PG",
+      "billed": true,
+      "role": "limited_user",
+      "description": null,
+      "invitation_sent": true,
+      "job_title": null,
+      "teams": [
+        {
+          "id": "PQZPQGI",
+          "type": "team_reference",
+          "summary": "North American Space Agency (NASA)",
+          "self": "https://api.pagerduty.com/teams/PQZPQGI",
+          "html_url": "https://pdt-apidocs.pagerduty.com/teams/PQZPQGI"
+        }
+      ],
+      "contact_methods": [
+        {
+          "id": "P72XHAR",
+          "type": "email_contact_method",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PY7PNKZ/contact_methods/P72XHAR",
+          "html_url": null,
+          "label": "Default",
+          "address": "konstantin.feoktistov@ussr.example",
+          "send_short_email": false,
+          "send_html_email": true
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "PJGOM3Q",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PSMLP14",
+          "self": "https://api.pagerduty.com/users/PLOASXQ/notification_rules/PJGOM3Q",
+          "html_url": null
+        },
+        {
+          "id": "P0K2LG6",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PSMLP14",
+          "self": "https://api.pagerduty.com/users/PLOASXQ/notification_rules/P0K2LG6",
+          "html_url": null
+        },
+        {
+          "id": "PKWQ7KR",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P3W47MP",
+          "self": "https://api.pagerduty.com/users/PLOASXQ/notification_rules/PKWQ7KR",
+          "html_url": null
+        },
+        {
+          "id": "PW2553L",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PBXT65T",
+          "self": "https://api.pagerduty.com/users/PLOASXQ/notification_rules/PW2553L",
+          "html_url": null
+        }
+      ],
+      "coordinated_incidents": [],
+      "id": "PLOASXQ",
+      "type": "user",
+      "summary": "Alan B. Shepard, Jr.",
+      "self": "https://api.pagerduty.com/users/PLOASXQ",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/PLOASXQ"
+    }
+  ],
+  "limit": 25,
+  "offset": 0,
+  "total": null,
+  "more": true
+}
